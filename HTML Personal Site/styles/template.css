@@ -1,0 +1,43 @@
+body {
+        background-color : #c7e2b2;
+    }
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-width: 10px;
+      border-color: gray;
+      width: 3.25%;
+    }
+h1 {
+  color: #111d5e;
+}
+
+h3{
+color: #c70039;
+}
+
+img{
+  border-radius: 50%;
+  width: 20%;
+}
+
+#heading{
+
+position: relative;
+right: 55%;
+
+}
+.contact{
+ position: relative;
+ left: 50%;
+}
+
+ .project{
+ position: relative;
+ left: 49%;
+}
+
+ .home{
+  position: relative;
+  left: 48%;
+}
