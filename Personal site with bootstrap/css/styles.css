@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Graduate', cursive;
+  color: #006a71;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #006a71;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #40514E;
+}
+
+hr {
+  margin: 50px auto;
+  width: 6%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: #EAF6F6;
+}
+
+a {
+  color: #006a71;
+  font-family: 'VT323', monospace;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+
+a:hover{
+
+color: #EAF6F6;
+
+}
+
+footer {
+  background-color: #95e1d3;
+  height: 150px;
+  position: relative;
+}
+
+.top-section-wrapper {
+  background-color: #95e1d3;
+  position: relative;
+  padding-top: 140px;
+  margin-bottom: 50px;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.mountain {
+  position: relative;
+  bottom: -3.96px;
+}
+
+.page-heading {
+  margin: 50px auto 0 auto;
+  font-family: 'Graduate', cursive;
+  font-size: 2.5rem;
+  color: #006a71;
+}
+
+.page-heading-sub {
+  font-family: 'VT323', monospace;
+  font-size: 1.45rem;
+  margin: 5px auto;
+  font-weight: normal;
+  color: #006a71;
+}
+
+.profile-photo {
+  margin-top: 5px;
+  border-radius: 100%;
+  display: inline-block;
+  width: 15%;
+}
+
+.intro-desc {
+  padding-bottom: 0;
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 40px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-heading {
+  margin-bottom: 0;
+}
+
+.skill-row-programming {
+  margin-top: 15px;
+}
+
+/* .skill-description-programming{
+  width : ;
+} */
+.coding-gif {
+  border-radius: 100%;
+  width: 17%;
+  height: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bass-gif {
+  border-radius: 100%;
+  width: 17%;
+  height: 18%;
+  margin-top: 15px;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  position: relative;
+  text-align: center;
+}
+
+.contact-me-heading {
+  margin: 0;
+}
+
+.contact-me-desc {
+  margin-top: 5px;
+  margin-bottom: 100px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 4;
+}
+
+.btn {
+  font-family: 'Graduate', cursive;
+  position: relative;
+  bottom: 75px;
+  text-decoration: none;
+  background-color: #006a71;
+  color: #EAF6F6;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 30px;
+  border-style: groove;
+  border-color: #95e1d3;
+}
+
+.btn:active {
+  border-style: inset;
+}
+.btn:hover{
+  background-color: #EAF6F6;
+  color: #006a71;
+}
+
+.bottom-container {
+  position: relative;
+  top: 30%;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.footer-note {
+  position: relative;
+  top: 30px;
+  color: white;
+  font-size: 14px;
+  }
