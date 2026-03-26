@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="form_container">
+            <form id="loginForm" action="/login" method="POST" class="form" type="submit">
+                <div class="form_title_container">
+                    <h2>Login</h2>
+                </div>
+
+
+                <div class="form_input_element_container">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="sam@gmail.com"></input>
+                </div>
+                
+
+                <div class="form_input_element_container">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="******"></input>
+                </div>
+
+
+                <div class="form_button_container">
+                    <button>Login</button>
+                </div>
+            </form>
+            </form>
+        </div>
+        <script>
+            let form = document.getElementById("loginForm")
+            form.addEventListener('submit', handleLogin)
+        </script>
+    </body>
+</html>
+
